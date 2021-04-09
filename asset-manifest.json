@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Ecommerce/static/css/main.c3930eff.chunk.css",
+    "main.js": "/Ecommerce/static/js/main.4a83a49e.chunk.js",
+    "main.js.map": "/Ecommerce/static/js/main.4a83a49e.chunk.js.map",
+    "runtime-main.js": "/Ecommerce/static/js/runtime-main.f9a3e393.js",
+    "runtime-main.js.map": "/Ecommerce/static/js/runtime-main.f9a3e393.js.map",
+    "static/js/2.9808a491.chunk.js": "/Ecommerce/static/js/2.9808a491.chunk.js",
+    "static/js/2.9808a491.chunk.js.map": "/Ecommerce/static/js/2.9808a491.chunk.js.map",
+    "index.html": "/Ecommerce/index.html",
+    "static/css/main.c3930eff.chunk.css.map": "/Ecommerce/static/css/main.c3930eff.chunk.css.map",
+    "static/js/2.9808a491.chunk.js.LICENSE.txt": "/Ecommerce/static/js/2.9808a491.chunk.js.LICENSE.txt",
+    "static/media/burgerMenu.9dbc5a3a.svg": "/Ecommerce/static/media/burgerMenu.9dbc5a3a.svg",
+    "static/media/closeBurgerMenu.244b6687.svg": "/Ecommerce/static/media/closeBurgerMenu.244b6687.svg",
+    "static/media/logo.ca83f7f7.svg": "/Ecommerce/static/media/logo.ca83f7f7.svg",
+    "static/media/shoppingCart.0f0cd44e.svg": "/Ecommerce/static/media/shoppingCart.0f0cd44e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9a3e393.js",
+    "static/js/2.9808a491.chunk.js",
+    "static/css/main.c3930eff.chunk.css",
+    "static/js/main.4a83a49e.chunk.js"
+  ]
+}

@@ -1,0 +1,93 @@
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  margin: 0px;
+}
+.btn {
+  background-color: white;
+  color: rgb(32, 134, 230);
+  border: 2px solid rgb(32, 134, 230);
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+}
+/*Nav Bar Starts */
+#nav-container {
+  display: flex;
+  background-color: rgb(252, 252, 252);
+  height: 60px;
+}
+#nav-container ul {
+  list-style: none;
+  display: flex;
+  height: inherit;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+#nav-container a {
+  padding: 0px 10px;
+}
+#nav-container p {
+  font-weight: 500;
+
+  padding: 0px 10px;
+}
+#nav-container .nav-links {
+  font-size: 16px;
+  align-items: center;
+  height: 100%;
+  background-color: inherit;
+  color: rgb(134, 134, 134);
+}
+#nav-container .nav-links:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(110, 110, 110);
+}
+#nav-container .nav-links:focus {
+  border-bottom: 3px solid rgb(32, 134, 230);
+  color: rgb(75, 75, 75);
+}
+#nav-container li {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+.hello {
+  color: rgb(116, 116, 116);
+}
+/*Side Nav Starts*/
+.side-nav {
+  position: fixed;
+  left: -100%;
+  color: rgb(245, 245, 245);
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  transition: left 1s;
+}
+.side-nav.active {
+  left: 0px;
+}
+/*Side Nav Ends*/
+
+/*Nav Bar Ends */
+
+/*Media query for nav-bar starts*/
+@media only screen and (max-width: 450px) {
+  #nav-container #main-buttons .nav-links:focus {
+    background-color: inherit;
+    border-bottom: none;
+    border-top: 5px solid rgb(32, 134, 230);
+  }
+}
+/*Media query for nav-bar ends*/
